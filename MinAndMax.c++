@@ -39,8 +39,8 @@ int main()
 
     MinAndMax(array, size, &min, &max);
 
-    std::cout << "Min : " << min << std::endl;
-    std::cout << "Max : " << max << std::endl;
+    std::cout << "Min : " << min << " | At Index : " << i << std::endl;
+    std::cout << "Max : " << max << " | At Index : " << i << std::endl;
 
     delete[] array;
     array = nullptr;
